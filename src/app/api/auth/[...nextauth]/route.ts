@@ -1,6 +1,6 @@
-import NextAuth from "next-auth/next";
-import type { NextAuthOptions } from "next-auth";
+import { NextAuthOptions } from "next-auth";
 import GitHubProvider from "next-auth/providers/github";
+import NextAuth from "next-auth";
 
 export const authOptions: NextAuthOptions = {
   providers: [
